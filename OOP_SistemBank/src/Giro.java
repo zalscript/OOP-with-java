@@ -6,5 +6,11 @@ public class Giro extends Rekening{
         limitPenarikan = limit;
     }
     
-    public 
+    public void  tarik (double jumlah){
+        if (jumlah <= limitPenarikan){
+            saldo -= jumlah;
+        }else{
+            System.out.println("Limit Penarikan Tidak Mencukupi");
+        }
+    }
 }
