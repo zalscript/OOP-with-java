@@ -28,7 +28,7 @@ public class Product {
     }
 
     public void infoProduct() {
-        System.out.println("Nama Produk: " + getName());
-        System.out.println("Harga Produk: " + getPrice());
+        System.out.println("Nama: " + getName());
+        System.out.println("Harga: " + getPrice());
     }
 }
